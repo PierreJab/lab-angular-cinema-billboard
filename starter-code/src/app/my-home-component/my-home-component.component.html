@@ -1,0 +1,9 @@
+<ul>
+  <li *ngFor="let oneMovie of movieTruc.movies" [routerLink]="['/movie', oneMovie.id]">
+    <h2>Room {{oneMovie.room}}</h2>
+    <img src="{{oneMovie.poster}}" alt="">
+    <h5>{{oneMovie.title}}</h5>
+    <!-- <p>ID: {{oneMovie.id}}</p> -->
+    <a [routerLink]="['/movie', oneMovie.id]">See Details</a>
+  </li>
+</ul>

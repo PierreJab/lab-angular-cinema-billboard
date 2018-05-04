@@ -1,0 +1,75 @@
+
+/* ---------- TITLE ----------- */
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-left: -25vw;
+}
+
+header h3 {
+    margin: 0 10vw;
+}
+
+
+/* ---------- CONTAINER ----------- */
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    margin: 5vh 0;
+}
+
+.container img{
+    height: 60vh;
+    margin: 0vh 10vw;
+}
+
+
+
+
+
+/* ---------- BUTTON ----------- */
+/* 
+a {
+    display: flex;
+    justify-content: center;
+    width: 5vw;
+    border-radius: 2px;
+    background-color: rgba(red, green, blue, alpha);
+} */
+
+button
+ {
+    margin-left:47.5vw;
+    width: 5vw; 
+    padding: 1vh;
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: green;
+    *background-color: green;
+    background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+    background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+    background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+    background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+    background-repeat: repeat-x;
+    border-color: #0044cc #0044cc #002a80;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  }
+
+
+  button:hover,
+button:focus,
+button:active,
+button.active,
+button.disabled,
+button[disabled] {
+  color: #ffffff;
+  background-color: limegreen;
+  *background-color: limegreen;
+}
